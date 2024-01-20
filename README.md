@@ -8,7 +8,7 @@ This repository is for exposing a locally hosted Large Language Model over Signa
 **TLDR:** Watch the video at **TBC**
 
 1. Clone this repository by running `git clone https://github.com/DanMakingWithAI/Mistral-x-Signal.git` in your terminal.
-2. Install the latest release of `signal-cli` which you can find at `https://github.com/AsamK/signal-cli` - unzip the latest `.tar.gz` into the same folder as this repository such that you'll have a `signal-cli/bin` folder containing the `signal-cli` executables
+2. Install the latest release of `signal-cli` which you can find at [https://github.com/AsamK/signal-cli](https://github.com/AsamK/signal-cli) - unzip the latest `.tar.gz` into the same folder as this repository such that you'll have a `signal-cli/bin` folder containing the `signal-cli` executables
 3. Install Ollama - on Windows you'll need to do this via WSL2
 3. Configure the environment variables. This involves setting up your Signal account and other necessary configurations.
 4. Run the signal_mistral script to start the service. This can be done by running `python signal_mistral.py` in your terminal.
