@@ -1,0 +1,5 @@
+.env
+.venv/*
+signal-cli/*
+__pycache__/*
+.aider*

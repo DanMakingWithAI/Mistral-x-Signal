@@ -1,0 +1,57 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "envelope": {
+        "source": "SENDERNUMBERGOESHERE",
+        "sourceNumber": "SENDERNUMBERGOESHERE",
+        "sourceUuid": "SENDERUIDGOESHERE",
+        "sourceName": "SENDERNAMEGOESHERE",
+        "sourceDevice": 1,
+        "timestamp": 1703012948008,
+        "dataMessage": {
+          "timestamp": 1703012948008,
+          "message": "1",
+          "expiresInSeconds": 0,
+          "viewOnce": false
+        }
+      },
+      "account": "BOTNUMBERGOESHERE"
+    },
+    {
+      "envelope": {
+        "source": "SENDERNUMBERGOESHERE",
+        "sourceNumber": "SENDERNUMBERGOESHERE",
+        "sourceUuid": "SENDERUIDGOESHERE",
+        "sourceName": "SENDERNAMEGOESHERE",
+        "sourceDevice": 1,
+        "timestamp": 1703012949928,
+        "dataMessage": {
+          "timestamp": 1703012949928,
+          "message": "2",
+          "expiresInSeconds": 0,
+          "viewOnce": false
+        }
+      },
+      "account": "BOTNUMBERGOESHERE"
+    },
+    {
+      "envelope": {
+        "source": "SENDERNUMBERGOESHERE",
+        "sourceNumber": "SENDERNUMBERGOESHERE2",
+        "sourceUuid": "SENDERUIDGOESHERE",
+        "sourceName": "SENDERNAMEGOESHERE",
+        "sourceDevice": 1,
+        "timestamp": 1703012952853,
+        "dataMessage": {
+          "timestamp": 1703012952853,
+          "message": "3?",
+          "expiresInSeconds": 0,
+          "viewOnce": false
+        }
+      },
+      "account": "BOTNUMBERGOESHERE"
+    }
+  ],
+  "id": "1234"
+}
