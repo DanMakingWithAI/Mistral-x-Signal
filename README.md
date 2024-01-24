@@ -14,9 +14,9 @@ This repository is for exposing a locally hosted Large Language Model over Signa
 5. Configure the environment variables: copy the `template.env` file to `.env` and overwrite the phone numbers in international format e.g. `+12345678901...`
 6. Set up your Signal account - the [signal-cli QuickStart guide](https://github.com/AsamK/signal-cli/wiki/Quickstart) is easy enough to follow
 8. Run the `signal_mistral` script to start the service. This can be done by running `python signal_mistral.py` in your terminal.
-9. Optionally, run at startup. On Windows you can use Task Scheduler to add `run_mistral_x_signal.bat` to run on user login - you'll need to overwite the directory path listed in the file with whatever's right for your system - see video for explanation of the file. On other platforms, you can use the usual patterns there to implement an equivalent.
+9. Optionally, run at startup. On Windows you can use Task Scheduler to add `run_mistral_x_signal.bat` to run on user login - you'll need to overwite the directory path listed in the file with whatever's right for your system - see the video for an explanation of the file and the options to use in your Task Scheduler task. On other platforms, you can use the usual patterns there to implement an equivalent.
 
-For detailed instructions, please refer to the video above.
+For detailed instructions, please watch the video above.
 
 
 ## Donate
