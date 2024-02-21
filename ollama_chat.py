@@ -89,7 +89,7 @@ def get_chat_completion(prompt='Hello', thread=[], status_callback=None):
         data = json.loads(chunk.decode('utf-8'))
         
         # Complete when done = true is received
-        if data['done'] == True:
+        if 'done' in data and data['done'] == True:
           break
 
         # Else record this chunk
