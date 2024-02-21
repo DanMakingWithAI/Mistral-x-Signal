@@ -3,7 +3,8 @@ REM Wait for 60 seconds
 timeout /T 60 /NOBREAK
 
 REM Start ollama serve in WSL2 in the background
-wsl -d Ubuntu -- bash -c "daemonize -e ~/ollama.log -o ~/ollama.log /usr/local/bin/ollama serve; true"
+REM We no longer need to do this part as Ollama can be installed to Windows to auto-start - we assume that now
+REM wsl -d Ubuntu -- bash -c "daemonize -e ~/ollama.log -o ~/ollama.log /usr/local/bin/ollama serve; true"
 
 
 REM Change directory to the location of the .env file
